@@ -2,7 +2,7 @@ import IngredientList from './components/IngredientList'
 import BurgerPane  from './components/BurgerPane'
 import './App.css';
 import React, {Component} from 'react'
-export default class App extends Component {
+class App extends Component {
 
   constructor() {
     super()
@@ -37,7 +37,7 @@ export default class App extends Component {
     })
   }
 
-  render(){
+  render() {
      return (
     <div>
       <div className="ingredients">
@@ -50,3 +50,5 @@ export default class App extends Component {
   );
 }
 }
+
+export default App; 

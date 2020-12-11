@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class IngredientList extends Component {
+class IngredientList extends Component {
     
     render() {
         const ingredientItem = this.props.ingredients.map((eachItem, index) => {
@@ -17,3 +17,5 @@ export default class IngredientList extends Component {
         )   
     }
 }
+
+export default IngredientList;

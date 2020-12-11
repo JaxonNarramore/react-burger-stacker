@@ -1,0 +1,10 @@
+.burger {
+  position: absolute;
+  top: 0;
+  right: 400px;
+}
+.ingredients {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}

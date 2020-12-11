@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-export default class BurgerPane extends Component{
+class BurgerPane extends Component{
 
     render() {
         const burgerChoice = this.props.burgerItem.map((eachItem, index) => {
@@ -18,3 +18,5 @@ export default class BurgerPane extends Component{
         )
     }
 }
+
+export default BurgerPane;
